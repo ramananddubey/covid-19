@@ -10,7 +10,7 @@ const CountryPicker = ({ handleCountryChange }) => {
         }
         fetchedCountries();
     }, [setCountriesData]);
-    console.log("countries name :",countriesData);
+    //console.log("countries name :",countriesData);
 
     return(
         <div className = {styles.formControl}>
