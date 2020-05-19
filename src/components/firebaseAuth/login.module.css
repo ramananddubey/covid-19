@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(250, 250,250);
+}
+.container{
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 500px;
+}
+.h3self{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    color: dodgerblue;
+    
+}
+.h3self:hover{
+   animation-delay: 0s;
+   animation-direction: normal;
+   animation-duration: 5s;
+   animation-fill-mode: none;
+
+}
+.Login{
+    margin-right: 15px;
+}
+.signup{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media(max-width:770px){
+    .container{
+        margin: 0 10%;
+    }
+    .image{
+        width: 100%;
+    }
+    .h3self{
+        margin:10% 0;
+        font-size:30px;
+        font-weight: bold;
+    }
+    .Login{
+        margin-right: 2px;
+    }
+    .signup{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,21 @@
+.container{
+    margin-top: 10px;
+    margin-left: 160px;
+    width: 77%;
+
+    
+}
+.media{
+    height: 200px;
+}
+@media(max-width:770px){
+    .container{
+        margin-top: 10px;
+       margin-left: 7px;
+       width: 95%;
+    }
+    .media{
+        height: 100px;
+        
+    }
+}
